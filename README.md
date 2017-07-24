@@ -32,5 +32,5 @@ Tambahkan Service Provider dan Facade pada `config.app`
 php artisan migrate
 ```
 ## Penggunaan
-`Indonesia::addLog($subject)`  
+`LogActivity::addLog($subject)`  
 `LogActivity::listLog()` 
