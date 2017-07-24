@@ -1,0 +1,22 @@
+{
+    "name": "larakuy/log-activity",
+    "description": "Simple save log activity helper.",
+    "keywords": ["laravel", "larakuy", "logactivity", "savelog", "simplelog"],
+    "homepage": "https://github.com/larakuy/log-activity",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ferdhika Yudira",
+            "email": "rpl4rt08@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Larakuy\\LogActivity\\": "src/"
+        }
+    },
+    "require": {
+        "php" : "^7.0"
+    }
+}
