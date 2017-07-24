@@ -25,12 +25,12 @@ Tambahkan Service Provider dan Facade pada `config.app`
     'LogActivity' => Larakuy\LogActivity\Facades\LogActivity::class
 
 ]
+```
 
 ### Jalankan Migration
 ```
 php artisan migrate
 ```
 ## Penggunaan
-
 `Indonesia::addLog($subject)`  
 `LogActivity::listLog()` 
